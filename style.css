@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.headbar {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-left: 2%;
+   padding-right: 2%;
+}
+
+.headbar .text a {
+    text-decoration: none;
+    text-align: center;
+}
