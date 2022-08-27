@@ -3,11 +3,7 @@
     padding: 0;
 }
 
-@media (min-width: 600px) {
-    body {
-        background-color: rgb(43, 51, 63);
-    }
-
+@media only screen and (min-width: 992px) {
     .headbar {
      display: flex;
      justify-content: space-between;
@@ -16,6 +12,11 @@
      padding-right: 2%;
      font-size: 1.5em;
      font-family: 'Secular One', sans-serif;
+     background-color: rgb(43, 51, 63);
+    }
+
+    .mainpage {       
+        background-color: rgb(43, 51, 63);
     }
 
     .headbar .logo h1 {
@@ -29,22 +30,56 @@
         font-size: 1.0em;
     }
 
+    .mainitens {
+        display: flex;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        justify-content: center;
+    }
+
     .maintext {
         display: flex;
+        flex-direction: column;
         justify-content: center;
+        align-items: center;
+        padding-right: 2%;
+    }
+
+    .maintext h3 {
+        align-items: center;
     }
 
     .select {
         display: flex;
         justify-content: center;
-        padding-top: 2%;
     }
 
     .scale-in-center {
         font-size: 1.5em;
-        color: rgb(160, 160, 160);
+        color: rgb(180, 180, 180);
+    }
+
+    .selections{
+        font-family: 'Secular One', sans-serif;
+        border-style: ridge;
+        color: rgb(180, 180, 180);
+        border-color: rgb(70, 76, 85);
+        background: rgb(50, 56, 65);
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(50, 56, 65);
+    }
+
+    footer a {
+        text-decoration: none;
+        font-family: 'Secular One', sans-serif;
+        color: rgb(100, 100, 100);
     }
 }
-@media (max-width: 600px) {
+@media only screen and (max-width: 992px) {
     
 }
