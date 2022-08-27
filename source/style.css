@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 600px) {
+    body {
+        background-color: rgb(43, 51, 63);
+    }
+
+    .headbar {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding-left: 2%;
+     padding-right: 2%;
+     font-size: 1.5em;
+     font-family: 'Secular One', sans-serif;
+    }
+
+    .headbar .logo h1 {
+        color: rgb(255, 255, 255);
+    }
+
+    .headbar .text a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        text-align: center;
+        font-size: 1.0em;
+    }
+
+    .maintext {
+        display: flex;
+        justify-content: center;
+    }
+
+    .select {
+        display: flex;
+        justify-content: center;
+        padding-top: 2%;
+    }
+
+    .scale-in-center {
+        font-size: 1.5em;
+        color: rgb(160, 160, 160);
+    }
+}
+@media (max-width: 600px) {
+    
+}
