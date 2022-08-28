@@ -67,11 +67,49 @@
         background: rgb(50, 56, 65);
     }
 
+    .secondaryimages {
+        background-color: rgb(180, 180, 180);
+        font-size: 1.0em;
+        color: rgb(50, 51, 63);
+    }
+
+    .firstrow {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-left: 4%;
+    }
+
+    .firstrow img, .secondrow img {
+        border-radius: 15px;
+    }
+
+    .firstrow h3 {
+        padding-right: 1%;
+    }
+
+    .secondrow {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-right: 4%;
+    }
+
+    .secondrow h3 {
+        padding-right: 1%;
+    }
+
     footer {
         display: flex;
         justify-content: center;
         align-items: center;
         background-color: rgb(50, 56, 65);
+        padding-top: 1%;
+        padding-bottom: 1%;
     }
 
     footer a {

@@ -6,8 +6,8 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet"> 
 	<link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="source/style.css">
-    <script src="/source/script.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="source/mainpage/style.css">
+    <script src="/source/mainpage/script.js" type="text/javascript"></script>
     <title>Mathemattic</title>
 </head>
 <body>
@@ -22,26 +22,38 @@
 	<div class="mainpage">
 		<div class="mainitens">
 			<div class="maintext">
-					<h3 class="scale-in-center">Escolha uma área da matemática para procurar</h3>
+				<h3 class="scale-in-center">Escolha uma área da matemática para buscar</h3>
 					<div class="select">
-						<select class="selections">
-							<option selected>----Selecione um conteúdo----</option>
-							<option>Aritmética</option>
-							<option>Algebra</option>
-							<option>Geometria Básica</option>
-							<option>Trigonometria Básica</option>
-							<option>Estatísca</option>
-							<option>Geometria Avançada</option>
-							<option>Trigonometria Avançada</option>
-						</select>
+						<form>
+							<select class="selections">
+								<option value="0" selected>----Selecione um conteúdo----</option>
+								<option value="1" onclick="myFunction(1)">Aritmética</option>
+								<option value="2" onclick="myFunction(2)">Algebra</option>
+								<option value="3" onclick="myFunction(3)">Geometria Básica</option>
+								<option value="4" onclick="myFunction(4)">Trigonometria Básica</option>
+								<option value="5" onclick="myFunction(5)">Estatística</option>
+								<option value="6" onclick="myFunction(6)">Geometria Avançada</option>
+								<option value="7" onclick="myFunction(7)">Trigonometria Avançada</option>
+								<option value="8" onclick="myFunction(8)">Í̴̪͍͝m̴̛̘̣͘p̶̳͖͒ò̷̡s̷͓͓̓̍s̶̞͜͠í̷̼͈͂̑v̵̹͝é̸͍͐ͅl̴̖̂</option>
+							</select>
+						</form>
 					</div>
-			</div>
+				</div>
 			<div class ="mainimage">
-				<img src="/assets/mainpageimages/mainpagemathimage.png" alt="Main page image of a math exercise" class="mw-100">
+				<img src="assets/mainpageimages/mainpagemathimage.png" alt="Main page image of a mathematic exercise" class="mw-100">
 			</div>
 		</div>
 	</div>
-    
+	<div class="secondaryimages">
+		<div class="firstrow">
+			<h3>Uma vasta coleção de exercícios para todos os níveis</h3>
+			<img src="assets/mainpageimages/exercicios.png" alt="Image of a mathematic exercise">
+		</div>
+		<div class="secondrow">
+			<h3>Com explicações simples e descomplicadas</h3>
+			<img src="assets/mainpageimages/explicacoes.png" alt="Image of a mathematic explication">
+		</div>
+	</div>    
 </body>
 <footer>
 	<a href="https://github.com/umloucobr/mathemattic">Contribute on our GitHub</a>
