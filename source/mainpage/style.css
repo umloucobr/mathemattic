@@ -33,7 +33,7 @@
     .mainitens {
         display: flex;
         padding-top: 2%;
-        padding-bottom: 2%;
+        padding-bottom: 4%;
         justify-content: center;
     }
 
@@ -73,7 +73,7 @@
         color: rgb(50, 51, 63);
     }
 
-    .firstrow {
+    .firstrow, .thirdrow {
         display: flex;
         justify-content: left;
         align-items: center;
@@ -82,25 +82,21 @@
         padding-left: 4%;
     }
 
-    .firstrow img, .secondrow img {
+    .firstrow img, .secondrow img, .thirdrow img, .fourthrow img {
         border-radius: 15px;
     }
 
-    .firstrow h3 {
+    .firstrow h3, .secondrow h3, .thirdrow h3, .fourthrow h3  {
         padding-right: 1%;
     }
 
-    .secondrow {
+    .secondrow, .fourthrow {
         display: flex;
         justify-content: right;
         align-items: center;
         padding-top: 1%;
         padding-bottom: 1%;
         padding-right: 4%;
-    }
-
-    .secondrow h3 {
-        padding-right: 1%;
     }
 
     footer {

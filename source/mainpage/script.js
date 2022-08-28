@@ -1,5 +1,5 @@
 //.value won't work so I had to do it the hard way.
-function myFunction(x) {
+function redirectToExercises(x) {
     switch (x) {
         case 1:
             window.location.href = "";
