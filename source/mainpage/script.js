@@ -3,35 +3,35 @@
 function redirectToExercises(x) {
     switch (x) {
         case 1:
-            window.location.href = "/source/exercisepages/exercises.html?id=aritimetica";
+            window.location.href = "source/exercisepages/exercises.html?id=aritimetica";
             break;
 
         case 2:
-            window.location.href = "/source/exercisepages/exercises.html?id=algebra";
+            window.location.href = "source/exercisepages/exercises.html?id=algebra";
             break;
     
         case 3:
-            window.location.href = "/source/exercisepages/exercises.html?id=geometriab";
+            window.location.href = "source/exercisepages/exercises.html?id=geometriab";
             break;
             
         case 4:
-            window.location.href = "/source/exercisepages/exercises.html?id=trigb";
+            window.location.href = "source/exercisepages/exercises.html?id=trigb";
             break;  
 
         case 5:
-            window.location.href = "/source/exercisepages/exercises.html?id=estatistica";
+            window.location.href = "source/exercisepages/exercises.html?id=estatistica";
             break;
 
         case 6:
-            window.location.href = "/source/exercisepages/exercises.html?id=geometriaa";
+            window.location.href = "source/exercisepages/exercises.html?id=geometriaa";
             break;
 
         case 7:
-            window.location.href = "/source/exercisepages/exercises.html?id=triga";
+            window.location.href = "source/exercisepages/exercises.html?id=triga";
             break;
 
         case 8:
-            window.location.href = "/source/exercisepages/exercises.html?id=impossivel";
+            window.location.href = "source/exercisepages/exercises.html?id=impossivel";
             break;
     }
 }
