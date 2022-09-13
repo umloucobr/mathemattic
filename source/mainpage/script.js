@@ -3,7 +3,7 @@
 function redirectToExercises(x) {
     switch (x) {
         case "1":
-            window.location.href = "source/exercisepages/exercises.html?id=aritimetica";
+            window.location.href = "source/exercisepages/exercises.html?id=aritmetica";
             break;
 
         case "2":
