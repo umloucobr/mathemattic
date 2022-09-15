@@ -38,9 +38,9 @@ var id = getQueryVariable("id");
 //Todo.
 switch (id) {
 	case "aritmetica":
-		for (let i = 0; i < 1; i++) {
-			var container = document.getElementsByClassName("exercises")[0];
-			container.innerHTML = "<img src='/tests/a.png' alt='exercise' />";
+		for (let i = 1; i < 9; i++) {
+			var container = document.getElementsByClassName("exercises" + i.toString())[0];
+			container.innerHTML = "<img src='/tests/a.png' alt='exercise' />  <div class='button'> <button>Resolvido</button> </div>";
 		}
 		break;
 
